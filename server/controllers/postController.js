@@ -2,7 +2,7 @@ const Post = require("../models/Post");
 const CoverImage = require("../models/CoverImage");
 const path = require("path");
 const fs = require("fs");
-const SERVER_URL = process.env.SERVER_URL || "http://localhost:5000";
+const SERVER_URL = process.env.SERVER_URL || "http://82.29.164.27";
 
 // Create a new post with a cover image
 const createPost = async (req, res) => {
