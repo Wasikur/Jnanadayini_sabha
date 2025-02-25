@@ -2,7 +2,7 @@ const Carousel = require("../models/Carousel"); // Import the correct model
 const fs = require("fs");
 const path = require("path");
 
-const SERVER_URL = process.env.SERVER_URL || "http://localhost:5000";
+const SERVER_URL = process.env.SERVER_URL || "http://82.29.164.27";
 
 // Upload an image for the carousel
 const uploadCarouselImage = async (req, res) => {
