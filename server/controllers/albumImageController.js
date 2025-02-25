@@ -3,7 +3,7 @@ const Album = require("../models/Album");
 const fs = require("fs");
 const path = require("path");
 
-const SERVER_URL = process.env.SERVER_URL || "http://localhost:5000";
+const SERVER_URL = process.env.SERVER_URL || "http://82.29.164.27";
 
 // Upload multiple images and associate them with an album
 const uploadImage = async (req, res) => {
